@@ -1,0 +1,13 @@
+---
+module:
+  name: "ui.sortable"
+uis:
+  - name: ui-sortable
+    dependencies:
+      packages:
+        - name: sortable
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
